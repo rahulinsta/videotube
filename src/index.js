@@ -3,8 +3,9 @@ import { DB_NAME } from "./constant.js";
 import express  from "express";
 import dotenv from "dotenv";
 import connectDb from "./db/databse.js";
+import {app} from "./app.js"
 
-const app = express();
+//const app = express();
 
 /* dotenv.config({
     path: './env'

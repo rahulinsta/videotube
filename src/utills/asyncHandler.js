@@ -5,7 +5,7 @@ const asyncHandler = (requestHandler) =>{
     }
 }
 
-
+export {asyncHandler}
 
 
 //THIS CODE IS JUST  A SMAPLE OF USING AYSNC AND AWAIT METHODS
